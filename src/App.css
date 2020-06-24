@@ -1,4 +1,30 @@
-.App {
+ /* @import url('../fonts/Helvetica45Light_22437.ttf');  */
+ @font-face { 
+  font-family: helveticaNue; 
+  src: url('./fonts/Helvetica45Light_22437.ttf'); } 
+body { margin:0; padding: 0; font-family: "helveticaNue", Helvetica, Arial, sans-serif;}
+
+.page-container { background: #FFF; width: 100%; }
+
+.welcome-bg {
+position: relative;
+margin: 0 auto;
+width: 1340px;
+min-height: 1474px;
+background: url('./images/coming-soon.png') no-repeat center;
+background-size: contain;
+}
+
+.site-logo { float: left; padding: 2rem 3rem;}
+.header-link { float: right; padding: 4.5rem 4rem; }
+.header-link a { color: #5D3EA8; text-decoration: none;}
+.header-link a:hover { text-decoration: underline; }
+.try-jaam { position: absolute; top: 28rem; right: 12rem; }
+.try-jaam button { background-color: #5D3EA8; border-radius: 3px; border: 1px solid #5D3EA8; padding: 1rem 6rem; color: #FFF; cursor: pointer; }
+.try-jaam button:focus, .try-jaam button:active:focus  { outline: none; }
+
+
+/* .App {
   text-align: center;
 }
 
@@ -21,7 +47,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} 
 
 .App-link {
   color: #61dafb;
@@ -35,3 +61,4 @@
     transform: rotate(360deg);
   }
 }
+*/
