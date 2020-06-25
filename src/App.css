@@ -10,6 +10,7 @@ body { margin:0; padding: 0; font-family: "helveticaNue", Helvetica, Arial, sans
 position: relative;
 margin: 0 auto;
 width: 1340px;
+top: 70px;
 min-height: 1474px;
 background: url('./images/coming-soon.png') no-repeat center;
 background-size: contain;
@@ -23,6 +24,11 @@ background-size: contain;
 .try-jaam button { background-color: #5D3EA8; border-radius: 3px; border: 1px solid #5D3EA8; padding: 1rem 6rem; color: #FFF; cursor: pointer; }
 .try-jaam button:focus, .try-jaam button:active:focus  { outline: none; }
 
+.signup-page
+{
+  position: relative;
+  top:150px;
+}
 
 /* .App {
   text-align: center;
