@@ -5,8 +5,8 @@ import '../App.css';
 const Signup = () => (
     
         <div className="signup-page">
-            Sign up !
-            <NavLink to='/' >Home </NavLink>   
+            Sign up !!
+            <p><NavLink to='/' >Home </NavLink></p>           
         </div>
    
 );

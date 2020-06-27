@@ -4,14 +4,14 @@
   src: url('./fonts/Helvetica45Light_22437.ttf'); } 
 body { margin:0; padding: 0; font-family: "helveticaNue", Helvetica, Arial, sans-serif;}
 
-.page-container { background: #FFF; width: 100%; }
+.page-container { background: #FFF; width: 100% }
 
 .welcome-bg {
 position: relative;
 margin: 0 auto;
-width: 1340px;
-top: 70px;
-min-height: 1474px;
+width: 80vw;
+top: 75px;
+min-height: 200vh;
 background: url('./images/coming-soon.png') no-repeat center;
 background-size: contain;
 }
